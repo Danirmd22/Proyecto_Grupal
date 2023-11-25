@@ -1,17 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="static/css/normalize.css">
-    <link rel="stylesheet" href="static/css/style.css">
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-<script src="static/js/app.js"></script>
-</head>
-<body>
+<?php require("parts/head.php"); ?>
+<body class="index">
     <section>
         <form>
             <h1>Iniciar Sesión</h1>
@@ -36,6 +24,6 @@
         </form>
         
     </section>
-   
+    <script src="static/js/app.js"></script>
 </body>
 </html>

@@ -3,9 +3,9 @@ function validarEmail(){
     var password = document.getElementById('password').value;
     
        if (email === 'profesor@cesurformacion.com' && password === '1234') {
-         location.href = "pagina_profesor.html";
+         location.href = "pagina_profesor.php";
        } else if (email === 'alumno@cesurformacion.com' && password === '5678') {
-        location.href="pagina_alumno.html"
+        location.href="pagina_alumno.php"
        } else {
          alert('Usuario y/o contraseña incorrectos');
        }
