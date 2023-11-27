@@ -134,6 +134,169 @@ ul {
   background-color: white;
 }
 
+.contenedor {
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+}
+.contenedor h2 {
+  font-size: 3rem;
+  color: black;
+}
+.contenedor .empresas {
+  padding-top: 50px;
+  text-align: center;
+}
+.contenedor .empresas table {
+  font-size: 1.3rem;
+  border-collapse: collapse;
+}
+.contenedor .empresas table th {
+  background-color: #a8a8a8;
+  color: black;
+}
+.contenedor .empresas table th, .contenedor .empresas table td {
+  padding: 10px;
+  border: 1px solid black;
+}
+.contenedor .empresas table th a, .contenedor .empresas table td a {
+  color: black;
+}
+.contenedor .empresas table th a:hover, .contenedor .empresas table td a:hover {
+  color: white;
+  transition: color 0.25s ease;
+}
+.contenedor .empresas table th i, .contenedor .empresas table td i {
+  padding: 5px;
+}
+.contenedor .empresas table tr:hover {
+  color: white;
+  background-color: #087021;
+  transition: background-color 0.25s ease;
+}
+
+.crea-contenedor {
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+}
+.crea-contenedor h2 {
+  font-size: 3rem;
+  color: black;
+}
+.crea-contenedor .cuadro {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 20px;
+  width: 70%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.crea-contenedor .cuadro #formu {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.crea-contenedor .cuadro .column {
+  display: flex;
+  flex-direction: column;
+  float: left;
+  width: 33%;
+  padding-left: 20px;
+}
+.crea-contenedor .cuadro .column #observaciones {
+  width: 580px;
+  height: 86;
+}
+
+.crea-contenedor {
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+}
+.crea-contenedor h2 {
+  font-size: 3rem;
+  color: black;
+}
+.crea-contenedor .cuadro {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 20px;
+  width: 70%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.crea-contenedor .cuadro #formu {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.crea-contenedor .cuadro .column {
+  display: flex;
+  flex-direction: column;
+  float: left;
+  width: 33%;
+  padding-left: 20px;
+}
+.crea-contenedor .cuadro .column #observaciones {
+  width: 580px;
+  height: 86;
+}
+.crea-contenedor .empresas {
+  padding-top: 50px;
+  text-align: center;
+}
+.crea-contenedor .empresas table {
+  font-size: 1.3rem;
+  border-collapse: collapse;
+}
+.crea-contenedor .empresas table th {
+  background-color: #a8a8a8;
+  color: black;
+}
+.crea-contenedor .empresas table th, .crea-contenedor .empresas table td {
+  padding: 10px;
+  border: 1px solid black;
+}
+.crea-contenedor .empresas table th a, .crea-contenedor .empresas table td a {
+  color: black;
+}
+.crea-contenedor .empresas table th a:hover, .crea-contenedor .empresas table td a:hover {
+  color: white;
+  transition: color 0.25s ease;
+}
+.crea-contenedor .empresas table th i, .crea-contenedor .empresas table td i {
+  padding: 5px;
+}
+.crea-contenedor .empresas table tr:hover {
+  color: white;
+  background-color: #087021;
+  transition: background-color 0.25s ease;
+}
+
 * {
   margin: 0;
   padding: 0;
