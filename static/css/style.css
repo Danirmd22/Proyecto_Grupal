@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Heebo&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100&family=Nunito+Sans:opsz,wght@6..12,200&family=Open+Sans:wght@300&family=Oswald&family=Poppins:wght@500&display=swap");
 .container-tabla {
   display: flex;
@@ -197,6 +198,393 @@ h2 {
 
 .submit-btn:hover {
   background-color: #055016;
+}
+
+.container-tabla {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 200px;
+}
+.container-tabla .alumnos-profesor {
+  padding-top: 200px;
+  text-align: center;
+}
+.container-tabla .alumnos-profesor table {
+  font-size: 1.3rem;
+  border-collapse: collapse;
+}
+.container-tabla .alumnos-profesor table th {
+  background-color: #a8a8a8;
+  color: black;
+}
+.container-tabla .alumnos-profesor table th, .container-tabla .alumnos-profesor table td {
+  padding: 10px;
+  border: 1px solid black;
+}
+.container-tabla .alumnos-profesor table th a, .container-tabla .alumnos-profesor table td a {
+  color: black;
+}
+.container-tabla .alumnos-profesor table th a:hover, .container-tabla .alumnos-profesor table td a:hover {
+  color: white;
+  transition: color 0.25s ease;
+}
+.container-tabla .alumnos-profesor table th i, .container-tabla .alumnos-profesor table td i {
+  padding: 5px;
+}
+.container-tabla .alumnos-profesor table tr:hover {
+  color: white;
+  background-color: #087021;
+  transition: background-color 0.25s ease;
+}
+.container-tabla p {
+  text-align: left;
+  padding-bottom: 30px;
+}
+
+.h1 {
+  color: #000000; /* Puedes ajustar el color según tus preferencias */
+}
+
+.container-tabla {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 200px;
+}
+.container-tabla .alumnos-profesor {
+  padding-top: 200px;
+  text-align: center;
+}
+.container-tabla .alumnos-profesor table {
+  font-size: 1.3rem;
+  border-collapse: collapse;
+}
+.container-tabla .alumnos-profesor table th {
+  background-color: #a8a8a8;
+  color: black;
+}
+.container-tabla .alumnos-profesor table th, .container-tabla .alumnos-profesor table td {
+  padding: 10px;
+  border: 1px solid black;
+}
+.container-tabla .alumnos-profesor table th a, .container-tabla .alumnos-profesor table td a {
+  color: black;
+}
+.container-tabla .alumnos-profesor table th a:hover, .container-tabla .alumnos-profesor table td a:hover {
+  color: white;
+  transition: color 0.25s ease;
+}
+.container-tabla .alumnos-profesor table th i, .container-tabla .alumnos-profesor table td i {
+  padding: 5px;
+}
+.container-tabla .alumnos-profesor table tr:hover {
+  color: white;
+  background-color: #087021;
+  transition: background-color 0.25s ease;
+}
+.container-tabla p {
+  text-align: left;
+  padding-bottom: 30px;
+}
+
+.h1 {
+  color: #000000; /* Puedes ajustar el color según tus preferencias */
+}
+
+.container-tabla {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 200px;
+}
+.container-tabla .alumnos-profesor {
+  padding-top: 200px;
+  text-align: center;
+}
+.container-tabla .alumnos-profesor table {
+  font-size: 1.3rem;
+  border-collapse: collapse;
+}
+.container-tabla .alumnos-profesor table th {
+  background-color: #a8a8a8;
+  color: black;
+}
+.container-tabla .alumnos-profesor table th, .container-tabla .alumnos-profesor table td {
+  padding: 10px;
+  border: 1px solid black;
+}
+.container-tabla .alumnos-profesor table th a, .container-tabla .alumnos-profesor table td a {
+  color: black;
+}
+.container-tabla .alumnos-profesor table th a:hover, .container-tabla .alumnos-profesor table td a:hover {
+  color: white;
+  transition: color 0.25s ease;
+}
+.container-tabla .alumnos-profesor table th i, .container-tabla .alumnos-profesor table td i {
+  padding: 5px;
+}
+.container-tabla .alumnos-profesor table tr:hover {
+  color: white;
+  background-color: #087021;
+  transition: background-color 0.25s ease;
+}
+.container-tabla p {
+  text-align: left;
+  padding-bottom: 30px;
+}
+
+.crea-contenedor {
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+}
+.crea-contenedor h2 {
+  font-size: 3rem;
+  color: black;
+}
+.crea-contenedor .cuadro {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 20px;
+  width: 70%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.crea-contenedor .cuadro #formu {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.crea-contenedor .cuadro .column {
+  display: flex;
+  flex-direction: column;
+  float: left;
+  width: 33%;
+  padding-left: 20px;
+}
+.crea-contenedor .cuadro .column #observaciones {
+  width: 580px;
+  height: 86;
+}
+
+.contenedor {
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+}
+.contenedor h2 {
+  font-size: 3rem;
+  color: black;
+}
+.contenedor .empresas {
+  padding-top: 50px;
+  text-align: center;
+}
+.contenedor .empresas table {
+  font-size: 1.3rem;
+  border-collapse: collapse;
+}
+.contenedor .empresas table th {
+  background-color: #a8a8a8;
+  color: black;
+}
+.contenedor .empresas table th, .contenedor .empresas table td {
+  padding: 10px;
+  border: 1px solid black;
+}
+.contenedor .empresas table th a, .contenedor .empresas table td a {
+  color: black;
+}
+.contenedor .empresas table th a:hover, .contenedor .empresas table td a:hover {
+  color: white;
+  transition: color 0.25s ease;
+}
+.contenedor .empresas table th i, .contenedor .empresas table td i {
+  padding: 5px;
+}
+.contenedor .empresas table tr:hover {
+  color: white;
+  background-color: #087021;
+  transition: background-color 0.25s ease;
+}
+
+.crea-contenedor {
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+}
+.crea-contenedor h2 {
+  font-size: 3rem;
+  color: black;
+}
+.crea-contenedor .cuadro {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 20px;
+  width: 70%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.crea-contenedor .cuadro #formu {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.crea-contenedor .cuadro .column {
+  display: flex;
+  flex-direction: column;
+  float: left;
+  width: 33%;
+  padding-left: 20px;
+}
+.crea-contenedor .cuadro .column #observaciones {
+  width: 580px;
+  height: 86;
+}
+.crea-contenedor .empresas {
+  padding-top: 50px;
+  text-align: center;
+}
+.crea-contenedor .empresas table {
+  font-size: 1.3rem;
+  border-collapse: collapse;
+}
+.crea-contenedor .empresas table th {
+  background-color: #a8a8a8;
+  color: black;
+}
+.crea-contenedor .empresas table th, .crea-contenedor .empresas table td {
+  padding: 10px;
+  border: 1px solid black;
+}
+.crea-contenedor .empresas table th a, .crea-contenedor .empresas table td a {
+  color: black;
+}
+.crea-contenedor .empresas table th a:hover, .crea-contenedor .empresas table td a:hover {
+  color: white;
+  transition: color 0.25s ease;
+}
+.crea-contenedor .empresas table th i, .crea-contenedor .empresas table td i {
+  padding: 5px;
+}
+.crea-contenedor .empresas table tr:hover {
+  color: white;
+  background-color: #087021;
+  transition: background-color 0.25s ease;
+}
+
+.crea-container {
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+}
+.crea-container h2 {
+  font-size: 3rem;
+  color: black;
+}
+.crea-container .cuadro-diario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.crea-container .cuadro-diario #form-diario {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.crea-container .cuadro-diario .columna {
+  display: flex;
+  flex-direction: column;
+  float: left;
+  width: 40%;
+  padding-left: 20px;
+}
+.crea-container .cuadro-diario .columna #obser {
+  width: 600px;
+  height: 86;
+}
+
+.crea-empresas-contenedor {
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+}
+.crea-empresas-contenedor h2 {
+  font-size: 3rem;
+  color: black;
+  padding-bottom: 40px;
+}
+.crea-empresas-contenedor .cuadro {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 20px;
+  width: 50%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.crea-empresas-contenedor .cuadro #formu {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.crea-empresas-contenedor .cuadro #formu .boton {
+  padding-top: 20px;
+}
+.crea-empresas-contenedor .cuadro .column {
+  display: flex;
+  flex-direction: column;
+  float: left;
+  width: 49%;
+  padding-left: 20px;
+}
+.crea-empresas-contenedor .cuadro .column #observaciones {
+  width: 613px;
+  height: 96;
 }
 
 * {

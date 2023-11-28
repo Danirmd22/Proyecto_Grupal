@@ -1,0 +1,54 @@
+
+.container-tabla{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 200px;
+
+    .alumnos-profesor{
+        padding-top: 200px;
+        text-align: center;
+        table{
+            font-size: 1.3rem;
+            border-collapse: collapse;
+            
+            th{
+                background-color: #a8a8a8;
+                color: black;
+            }
+
+            th,td{
+                padding: 10px;
+                border: 1px solid black;
+                a{
+                    color: black;
+                    &:hover{
+                        color: white;
+                        transition: color 0.25s ease ;
+                    }
+                }
+
+                i{
+                    padding: 5px;
+                }
+            }
+            tr:hover{
+                color: white;
+                background-color: #087021;
+                transition: background-color 0.25s ease ;
+            }
+            
+        }
+
+    }
+    p {
+        text-align: left;
+    padding-bottom: 30px;
+        
+      }
+
+
+
+
+}
