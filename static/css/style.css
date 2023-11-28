@@ -189,6 +189,7 @@ ul {
 .crea-contenedor h2 {
   font-size: 3rem;
   color: black;
+  padding-bottom: 40px;
 }
 .crea-contenedor .cuadro {
   display: flex;
@@ -209,6 +210,9 @@ ul {
   align-items: center;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+.crea-contenedor .cuadro #formu .boton {
+  padding-top: 20px;
 }
 .crea-contenedor .cuadro .column {
   display: flex;
@@ -295,6 +299,54 @@ ul {
   color: white;
   background-color: #087021;
   transition: background-color 0.25s ease;
+}
+
+.crea-empresas-contenedor {
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+}
+.crea-empresas-contenedor h2 {
+  font-size: 3rem;
+  color: black;
+  padding-bottom: 40px;
+}
+.crea-empresas-contenedor .cuadro {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 20px;
+  width: 50%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.crea-empresas-contenedor .cuadro #formu {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.crea-empresas-contenedor .cuadro #formu .boton {
+  padding-top: 20px;
+}
+.crea-empresas-contenedor .cuadro .column {
+  display: flex;
+  flex-direction: column;
+  float: left;
+  width: 49%;
+  padding-left: 20px;
+}
+.crea-empresas-contenedor .cuadro .column #observaciones {
+  width: 613px;
+  height: 96;
 }
 
 * {

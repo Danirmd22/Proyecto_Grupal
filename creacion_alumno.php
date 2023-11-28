@@ -39,7 +39,7 @@
 
                 </div>
             </div>
-            <div>
+            <div class="boton">
                 <button>Crear</button>
             </div>
             

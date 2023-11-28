@@ -9,33 +9,33 @@
             <div class="inputs">
                 <div class="column">
                     <label>Nombre: </label>
-                    <input type="text" name="name" id="name"/>
+                    <input type="text" name="name" id="name" value="Pedro"/>
                     <label>Apellidos: </label>
-                    <input type="text" name="lastname" id="lastname"/>
+                    <input type="text" name="lastname" id="lastname" value="Martinez Olmedo"/>
                     <label>Contraseña: </label>
-                    <input type="text" name="password" id="password"/>
+                    <input type="text" name="password" id="password" value="cesur1234"/>
                     <label>DNI: </label>
-                    <input type="text" name="dni" id="dni"/>
+                    <input type="text" name="dni" id="dni" value="87663549R"/>
                     <label>Fecha de Nacimiento: </label>
-                    <input type="date" name="dob" id="dob"/>
+                    <input type="date" name="dob" id="dob" value="08/10/2002"/>
                 </div>
                 <div class="column">
                     <label>Correo electrónico: </label>
-                    <input type="text" name="email" id="email"/>
+                    <input type="text" name="email" id="email" value="pedro@cesurformacion.com"/>
                     <label>Telefono móvil: </label>
-                    <input type="text" name="phone" id="phone"/>
+                    <input type="text" name="phone" id="phone" value="722146598"/>
                     <label>Empresa de Prácticas: </label>
-                    <input type="text" name="empresap" id="empresap"/>
+                    <input type="text" name="empresap" id="empresap" value="ViewNext"/>
                     <label>Observaciones: </label>
-                    <textarea rows="4" cols="50" name="mensaje" id="observaciones"></textarea>
+                    <textarea rows="4" cols="50" name="mensaje" id="observaciones">Gran estudiante, mejor persona.</textarea>
                 </div>
                 <div class="column">
                     <label>Tutor: </label>
-                    <input type="text" name="tutor" id="tutor"/>
+                    <input type="text" name="tutor" id="tutor" value="Jose Antonio Romero Lopez"/>
                     <label>Horas Dual: </label>
-                    <input type="text" name="hdual" id="hdual"/>
+                    <input type="text" name="hdual" id="hdual" value="200"/>
                     <label>Horas FCT: </label>
-                    <input type="text" name="hfct" id="hfct"/>
+                    <input type="text" name="hfct" id="hfct" value="400"/>
 
                 </div>
             </div>
